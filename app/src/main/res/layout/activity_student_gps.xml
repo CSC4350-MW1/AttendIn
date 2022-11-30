@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentMain">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="231dp"
+        android:layout_height="379dp"
+        android:src="@mipmap/gsu_logo"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:contentDescription="@string/gsulogo" />
+
+    <Spinner
+        android:id="@+id/classes"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:contentDescription="@string/select_class" />
+
+
+
+
+    <Button
+        android:id="@+id/submitid"
+        android:layout_width="225dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/studentid"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Submit"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/studentid"
+        android:layout_below="@id/classes"
+        android:layout_centerHorizontal="true"
+        android:layout_width="225dp"
+        android:layout_height="60dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/studentidedit"
+            android:hint="@string/student_id"
+            android:layout_below="@id/classes"
+            android:layout_centerHorizontal="true"
+            android:layout_width="225dp"
+            android:layout_height="60dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitid"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+</RelativeLayout>

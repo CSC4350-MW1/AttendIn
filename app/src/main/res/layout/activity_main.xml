@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="231dp"
+        android:layout_height="379dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/gsulogo"
+        android:src="@mipmap/gsu_logo"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btn_student"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_width="225dp"
+        android:layout_height="63dp"
+        android:text="@string/i_m_a_student"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <Button
+        android:id="@+id/btn_professor"
+        android:layout_below="@id/btn_student"
+        android:layout_centerHorizontal="true"
+        android:layout_width="225dp"
+        android:layout_height="63dp"
+        android:text="@string/i_m_a_professor"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+
+</RelativeLayout>

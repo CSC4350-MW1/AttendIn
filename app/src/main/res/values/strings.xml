@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AttendIn</string>
+    <string name="get_current_location">Get Current Location</string>
+    <string name="Submit">Submit</string>
+    <string name="student_id">Student ID (###-##-####)</string>
+    <string name="i_m_a_professor">I\'m a professor</string>
+    <string name="i_m_a_student">I\'m a Student</string>
+    <string name="gsulogo">gsulogo</string>
+    <string name="query">Query</string>
+    <string name="enter_crn">Enter CRN</string>
+    <string name="select_class">Select Class</string>
+    <string name="address">address</string>
+</resources>
